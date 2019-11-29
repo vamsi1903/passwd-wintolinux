@@ -1,0 +1,11 @@
+install putty ,puttygen
+generate keys in puttygen
+save both public and privatekey
+copy the public key and paste it in to the linux machine under .ssh/authorized_keys
+sudo chmod 700 .ssh
+sudo chown shuhari:shuhari .ssh -R
+sudo chmod 600 .ssh/authorizes_keys
+sudo service sshd restart
+in puttygen go to auth load privatekey and type open and go to login section .and just login with shuhari name
+automatically hojata hai
+
